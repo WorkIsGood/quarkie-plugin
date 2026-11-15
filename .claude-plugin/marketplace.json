@@ -1,0 +1,12 @@
+{
+  "name": "wig",
+  "owner": { "name": "WIG" },
+  "metadata": { "description": "WIG's plugins for Claude Code" },
+  "plugins": [
+    {
+      "name": "quarkie",
+      "source": "./quarkie",
+      "description": "Quarkie (WIG) in Claude Code: work on a task end to end, see your day, turn findings into tasks."
+    }
+  ]
+}

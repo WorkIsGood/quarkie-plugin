@@ -1,0 +1,33 @@
+{
+  "name": "quarkie",
+  "displayName": "Quarkie",
+  "version": "2.3.3",
+  "description": "O Quarkie (WIG) no Claude Code: trabalhar numa tarefa do princípio ao fim (lacunas, branch, pull request, entrega para validação), ver o teu dia num painel ao lado do chat e transformar o que encontraste numa tarefa.",
+  "author": {
+    "name": "WIG"
+  },
+  "homepage": "https://app.quarkie.ai",
+  "repository": "https://github.com/WorkIsGood/quarkie-plugin",
+  "keywords": [
+    "quarkie",
+    "wig",
+    "tasks",
+    "mcp"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "agent_token": {
+      "type": "string",
+      "title": "Token de agente do Quarkie",
+      "description": "Cria-o no Quarkie em Empresa › Agentes e tokens, com leitura e escrita. Fica guardado no cofre de credenciais do sistema, nunca em ficheiros.",
+      "sensitive": true,
+      "required": true
+    },
+    "server_url": {
+      "type": "string",
+      "title": "Endereço do servidor MCP do Quarkie",
+      "description": "Por omissão, a produção (https://app.quarkie.ai/mcp). Só endereços https:// — o token vai em cada pedido; http:// apenas para a stack local (http://localhost:5281/mcp). Nunca um endereço em que não confies.",
+      "default": "https://app.quarkie.ai/mcp"
+    }
+  }
+}
