@@ -1,7 +1,7 @@
 {
   "name": "quarkie",
   "displayName": "Quarkie",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "O Quarkie (WIG) no Claude Code: trabalhar numa tarefa do princípio ao fim (lacunas, branch, pull request, entrega para validação), ver o teu dia num painel ao lado do chat e transformar o que encontraste numa tarefa.",
   "author": {
     "name": "WIG"

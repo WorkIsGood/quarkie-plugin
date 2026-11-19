@@ -62,7 +62,7 @@ Vê primeiro que ferramentas o servidor do Quarkie tem (a lista de ferramentas M
    - `ref`: a referência da tarefa;
    - `summary`: um resumo em pt-PT do que foi feito, como verificar, e o que ficou de fora ou por decidir;
    - `links`: o URL do pull request (e outros links úteis), com `label`;
-   - `validators` (opcional): se não souberes quem valida, pergunta à pessoa; sem validadores, o Quarkie usa os responsáveis do projeto;
+   - `validators` (opcional): se não souberes quem valida, pergunta à pessoa (pode ser ela própria: revê o que fizeste por ela); sem validadores, o Quarkie usa os responsáveis do projeto;
    - `requestId`: um id teu (por exemplo o nome do branch) para não criar dois pedidos se repetires.
 2. Mostra a entrega à pessoa e, depois do «sim», chama `submit_work`. A tarefa passa a «Em validação» e a sessão de trabalho termina: a página mostra «entregue para validação», com o link do pull request.
 3. Diz à pessoa o resultado: o pedido de validação, quem valida e o link do pull request.
